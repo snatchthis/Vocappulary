@@ -1,5 +1,4 @@
 ﻿using Microsoft.Extensions.Logging;
-using Vocappulary.Data;
 
 namespace Vocappulary;
 
@@ -21,9 +20,6 @@ public static class MauiProgram
         builder.Services.AddBlazorWebViewDeveloperTools();
         builder.Logging.AddDebug();
 #endif
-
-        builder.Services.AddSingleton<WeatherForecastService>();
-
         return builder.Build();
     }
 }
