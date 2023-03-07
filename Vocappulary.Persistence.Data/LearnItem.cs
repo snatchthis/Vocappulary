@@ -9,9 +9,11 @@ public class LearnItem : IEntity
     public int Id { get; set; }
 
     [MaxLength(1024)]
+    [NotNull]
     public string Phrase { get; set; }
 
     [MaxLength(1024)]
+    [NotNull]
     public string Translation { get; set; }
 
 }

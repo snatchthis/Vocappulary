@@ -56,5 +56,11 @@ public abstract class Repository<TEntity> where TEntity : IEntity, new()
         await Init();
         return await Database.DeleteAsync(entity);
     }
+
+    public virtual async Task<int> DeletaAllAsync()
+    {
+        await Init();
+        return await Database.DeleteAllAsync<TEntity>();
+    }
 }
 

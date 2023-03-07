@@ -20,26 +20,31 @@
 
         <br />
         <button class="btn btn-primary" type="submit" @onclick="ViewModel.AddNewLearnItem">Save</button>
-
+        
         <br />
-
-        <div class="form-group">
-            <label>Learn items:</label>
-            <table class="table table-striped">
-                <tbody>
-                    @foreach (var entry in ViewModel.LearnItems)
-                    {
-                        <tr>
-                            <td>@entry.Id</td>
-                            <td>@entry.Phrase</td>
-                            <td>@entry.Translation</td>
-                        </tr>
-                    }
-                </tbody>
-            </table>
-        </div>
     </div>
 </EditForm>
+<br />
+<EditForm Model="@ViewModel">
+    <button class="btn btn-primary" type="submit" @onclick="ViewModel.DeleteAll">Delete all</button>
+</EditForm>
+
+<div class="form-group">
+    <label>Learn items:</label>
+    <table class="table table-striped">
+        <tbody>
+            @foreach (var entry in ViewModel.LearnItems)
+            {
+                <tr>
+                    <td>@entry.Id</td>
+                    <td>@entry.Phrase</td>
+                    <td>@entry.Translation</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
 
 @code
 {

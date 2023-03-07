@@ -64,6 +64,12 @@ public partial class AdministrationViewModel : ObservableValidator
         Translation = string.Empty;
     }
 
+    public async Task<int> DeleteAll()
+    {
+        var numberOfDeletesEntries = await _learnItemRepository.DeletaAllAsync();
+        OnPropertyChanged();
+        return numberOfDeletesEntries;
+    }
 
 }
 
