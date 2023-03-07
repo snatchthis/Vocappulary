@@ -1,0 +1,12 @@
+/Users/piotrboracki/Projects/Vocappulary/Vocappulary.Persistence.Data/bin/Debug/net7.0/Vocappulary.Persistence.Data.deps.json
+/Users/piotrboracki/Projects/Vocappulary/Vocappulary.Persistence.Data/bin/Debug/net7.0/Vocappulary.Persistence.Data.dll
+/Users/piotrboracki/Projects/Vocappulary/Vocappulary.Persistence.Data/bin/Debug/net7.0/Vocappulary.Persistence.Data.pdb
+/Users/piotrboracki/Projects/Vocappulary/Vocappulary.Persistence.Data/obj/Debug/net7.0/Vocappulary.Persistence.Data.csproj.AssemblyReference.cache
+/Users/piotrboracki/Projects/Vocappulary/Vocappulary.Persistence.Data/obj/Debug/net7.0/Vocappulary.Persistence.Data.GeneratedMSBuildEditorConfig.editorconfig
+/Users/piotrboracki/Projects/Vocappulary/Vocappulary.Persistence.Data/obj/Debug/net7.0/Vocappulary.Persistence.Data.AssemblyInfoInputs.cache
+/Users/piotrboracki/Projects/Vocappulary/Vocappulary.Persistence.Data/obj/Debug/net7.0/Vocappulary.Persistence.Data.AssemblyInfo.cs
+/Users/piotrboracki/Projects/Vocappulary/Vocappulary.Persistence.Data/obj/Debug/net7.0/Vocappulary.Persistence.Data.csproj.CoreCompileInputs.cache
+/Users/piotrboracki/Projects/Vocappulary/Vocappulary.Persistence.Data/obj/Debug/net7.0/Vocappulary.Persistence.Data.dll
+/Users/piotrboracki/Projects/Vocappulary/Vocappulary.Persistence.Data/obj/Debug/net7.0/refint/Vocappulary.Persistence.Data.dll
+/Users/piotrboracki/Projects/Vocappulary/Vocappulary.Persistence.Data/obj/Debug/net7.0/Vocappulary.Persistence.Data.pdb
+/Users/piotrboracki/Projects/Vocappulary/Vocappulary.Persistence.Data/obj/Debug/net7.0/ref/Vocappulary.Persistence.Data.dll

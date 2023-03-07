@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SQLitePCLRaw.provider.dynamic_cdecl" Version="2.1.4" />
+    <PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Vocappulary.Persistence.Data\Vocappulary.Persistence.Data.csproj" />
+  </ItemGroup>
+</Project>

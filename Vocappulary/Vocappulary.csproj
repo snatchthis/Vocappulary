@@ -33,6 +33,7 @@
 
     <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0-ios|AnyCPU'">
       <CreatePackage>false</CreatePackage>
+      <MtouchLink>SdkOnly</MtouchLink>
     </PropertyGroup>
     <ItemGroup>
         <!-- App Icon -->
@@ -62,5 +63,8 @@
     <ItemGroup>
       <Folder Include="Data\" />
       <Folder Include="Data\" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\Vocappulary.Persistence.Services\Vocappulary.Persistence.Services.csproj" />
     </ItemGroup>
 </Project>

@@ -1,0 +1,15 @@
+/Users/piotrboracki/Projects/Vocappulary/Vocappulary.Persistence.Services/obj/Debug/net7.0/Vocappulary.Persistence.Services.csproj.AssemblyReference.cache
+/Users/piotrboracki/Projects/Vocappulary/Vocappulary.Persistence.Services/obj/Debug/net7.0/Vocappulary.Persistence.Services.GeneratedMSBuildEditorConfig.editorconfig
+/Users/piotrboracki/Projects/Vocappulary/Vocappulary.Persistence.Services/obj/Debug/net7.0/Vocappulary.Persistence.Services.AssemblyInfoInputs.cache
+/Users/piotrboracki/Projects/Vocappulary/Vocappulary.Persistence.Services/obj/Debug/net7.0/Vocappulary.Persistence.Services.AssemblyInfo.cs
+/Users/piotrboracki/Projects/Vocappulary/Vocappulary.Persistence.Services/obj/Debug/net7.0/Vocappulary.Persistence.Services.csproj.CoreCompileInputs.cache
+/Users/piotrboracki/Projects/Vocappulary/Vocappulary.Persistence.Services/bin/Debug/net7.0/Vocappulary.Persistence.Services.deps.json
+/Users/piotrboracki/Projects/Vocappulary/Vocappulary.Persistence.Services/bin/Debug/net7.0/Vocappulary.Persistence.Services.dll
+/Users/piotrboracki/Projects/Vocappulary/Vocappulary.Persistence.Services/bin/Debug/net7.0/Vocappulary.Persistence.Services.pdb
+/Users/piotrboracki/Projects/Vocappulary/Vocappulary.Persistence.Services/bin/Debug/net7.0/Vocappulary.Persistence.Data.dll
+/Users/piotrboracki/Projects/Vocappulary/Vocappulary.Persistence.Services/bin/Debug/net7.0/Vocappulary.Persistence.Data.pdb
+/Users/piotrboracki/Projects/Vocappulary/Vocappulary.Persistence.Services/obj/Debug/net7.0/Vocappulary.Persistence.Services.csproj.CopyComplete
+/Users/piotrboracki/Projects/Vocappulary/Vocappulary.Persistence.Services/obj/Debug/net7.0/Vocappulary.Persistence.Services.dll
+/Users/piotrboracki/Projects/Vocappulary/Vocappulary.Persistence.Services/obj/Debug/net7.0/refint/Vocappulary.Persistence.Services.dll
+/Users/piotrboracki/Projects/Vocappulary/Vocappulary.Persistence.Services/obj/Debug/net7.0/Vocappulary.Persistence.Services.pdb
+/Users/piotrboracki/Projects/Vocappulary/Vocappulary.Persistence.Services/obj/Debug/net7.0/ref/Vocappulary.Persistence.Services.dll
