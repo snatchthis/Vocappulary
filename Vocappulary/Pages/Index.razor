@@ -1,27 +1,25 @@
 ﻿@page "/"
 @using Vocappulary.Persistence.Services
 @using Vocappulary.Persistence.Data
+@using Vocappulary.ViewModels
 
-@inject LearnItemRepository Repo
-
-<h1>Hello, world!</h1>
-
-Welcome to your new app.
-
-
+@inherits ContextComponent<AdministrationViewModel>
+<EditForm Model="@ViewModel">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
     <div class="container">
         <div class="form-group">
             <label for="phrase">Phrase:</label>
-            <input type="text" class="form-control" id="phrase" value="@phrase" />
+            <InputText type="text" class="form-control" id="phrase" @bind-Value="ViewModel.Phrase" />
         </div>
         <br />
         <div class="form-group">
             <label for="translation">Translation:</label>
-            <input type="text" class="form-control" id="translation" value="@translation" />
+            <input type="text" class="form-control" id="translation" @bind-value="ViewModel.Translation" />
         </div>
 
         <br />
-        <button class="btn btn-primary" type="submit" @onclick="Save">Save</button>
+        <button class="btn btn-primary" type="submit" @onclick="ViewModel.AddNewLearnItem">Save</button>
 
         <br />
 
@@ -29,7 +27,7 @@ Welcome to your new app.
             <label>Learn items:</label>
             <table class="table table-striped">
                 <tbody>
-                    @foreach (var entry in items)
+                    @foreach (var entry in ViewModel.LearnItems)
                     {
                         <tr>
                             <td>@entry.Id</td>
@@ -41,31 +39,13 @@ Welcome to your new app.
             </table>
         </div>
     </div>
-
+</EditForm>
 
 @code
 {
-
-    List<LearnItem> items = new List<LearnItem>();
-
-    string phrase = string.Empty;
-    string translation = string.Empty;
-
-    private async Task Save()
-    {
-        LearnItem LearnEntry = new LearnItem();
-        LearnEntry.Phrase = phrase;
-        LearnEntry.Translation = translation;
-
-        await Repo.SaveAsync(LearnEntry);
-
-        items = await Repo.GetAllAsync();
-    }
-    //LearnItemRepository Repo;
-
     protected override async Task OnInitializedAsync()
     {
+        await ViewModel.LoadLearnItems();
         await base.OnInitializedAsync();
-        items = await Repo.GetAllAsync();
     }
- }
+}

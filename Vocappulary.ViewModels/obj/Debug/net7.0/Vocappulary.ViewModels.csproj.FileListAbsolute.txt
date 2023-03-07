@@ -1,0 +1,17 @@
+/Users/piotrboracki/Projects/Vocappulary/Vocappulary.ViewModels/bin/Debug/net7.0/Vocappulary.ViewModels.deps.json
+/Users/piotrboracki/Projects/Vocappulary/Vocappulary.ViewModels/bin/Debug/net7.0/Vocappulary.ViewModels.dll
+/Users/piotrboracki/Projects/Vocappulary/Vocappulary.ViewModels/bin/Debug/net7.0/Vocappulary.ViewModels.pdb
+/Users/piotrboracki/Projects/Vocappulary/Vocappulary.ViewModels/bin/Debug/net7.0/Vocappulary.Persistence.Data.dll
+/Users/piotrboracki/Projects/Vocappulary/Vocappulary.ViewModels/bin/Debug/net7.0/Vocappulary.Persistence.Services.dll
+/Users/piotrboracki/Projects/Vocappulary/Vocappulary.ViewModels/bin/Debug/net7.0/Vocappulary.Persistence.Services.pdb
+/Users/piotrboracki/Projects/Vocappulary/Vocappulary.ViewModels/bin/Debug/net7.0/Vocappulary.Persistence.Data.pdb
+/Users/piotrboracki/Projects/Vocappulary/Vocappulary.ViewModels/obj/Debug/net7.0/Vocappulary.ViewModels.csproj.AssemblyReference.cache
+/Users/piotrboracki/Projects/Vocappulary/Vocappulary.ViewModels/obj/Debug/net7.0/Vocappulary.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+/Users/piotrboracki/Projects/Vocappulary/Vocappulary.ViewModels/obj/Debug/net7.0/Vocappulary.ViewModels.AssemblyInfoInputs.cache
+/Users/piotrboracki/Projects/Vocappulary/Vocappulary.ViewModels/obj/Debug/net7.0/Vocappulary.ViewModels.AssemblyInfo.cs
+/Users/piotrboracki/Projects/Vocappulary/Vocappulary.ViewModels/obj/Debug/net7.0/Vocappulary.ViewModels.csproj.CoreCompileInputs.cache
+/Users/piotrboracki/Projects/Vocappulary/Vocappulary.ViewModels/obj/Debug/net7.0/Vocappulary.ViewModels.csproj.CopyComplete
+/Users/piotrboracki/Projects/Vocappulary/Vocappulary.ViewModels/obj/Debug/net7.0/Vocappulary.ViewModels.dll
+/Users/piotrboracki/Projects/Vocappulary/Vocappulary.ViewModels/obj/Debug/net7.0/refint/Vocappulary.ViewModels.dll
+/Users/piotrboracki/Projects/Vocappulary/Vocappulary.ViewModels/obj/Debug/net7.0/Vocappulary.ViewModels.pdb
+/Users/piotrboracki/Projects/Vocappulary/Vocappulary.ViewModels/obj/Debug/net7.0/ref/Vocappulary.ViewModels.dll

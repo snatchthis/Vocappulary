@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 using Vocappulary.Persistence.Services;
+using Vocappulary.ViewModels;
 
 namespace Vocappulary;
 
@@ -23,6 +24,7 @@ public static class MauiProgram
 #endif
         string dbPath = Path.Combine(FileSystem.AppDataDirectory, "vocapp.db3");
         builder.Services.AddSingleton<LearnItemRepository>(s => ActivatorUtilities.CreateInstance<LearnItemRepository>(s, dbPath));
+        builder.Services.AddSingleton<AdministrationViewModel>();
 
 
         return builder.Build();

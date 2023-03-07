@@ -33,7 +33,7 @@
 
     <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0-ios|AnyCPU'">
       <CreatePackage>false</CreatePackage>
-      <MtouchLink>SdkOnly</MtouchLink>
+      <MtouchLink>None</MtouchLink>
     </PropertyGroup>
     <ItemGroup>
         <!-- App Icon -->
@@ -66,5 +66,6 @@
     </ItemGroup>
     <ItemGroup>
       <ProjectReference Include="..\Vocappulary.Persistence.Services\Vocappulary.Persistence.Services.csproj" />
+      <ProjectReference Include="..\Vocappulary.ViewModels\Vocappulary.ViewModels.csproj" />
     </ItemGroup>
 </Project>
