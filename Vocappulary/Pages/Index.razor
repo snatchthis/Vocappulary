@@ -8,16 +8,16 @@
 
 Welcome to your new app.
 
-<EditForm>
+
     <div class="container">
         <div class="form-group">
             <label for="phrase">Phrase:</label>
-            <InputText type="text" class="form-control" id="phrase" @bind-Value="phrase" />
+            <input type="text" class="form-control" id="phrase" value="@phrase" />
         </div>
         <br />
         <div class="form-group">
             <label for="translation">Translation:</label>
-            <InputText type="text" class="form-control" id="translation" @bind-Value="translation" />
+            <input type="text" class="form-control" id="translation" value="@translation" />
         </div>
 
         <br />
@@ -41,7 +41,7 @@ Welcome to your new app.
             </table>
         </div>
     </div>
-</EditForm>
+
 
 @code
 {
@@ -62,4 +62,10 @@ Welcome to your new app.
         items = await Repo.GetAllAsync();
     }
     //LearnItemRepository Repo;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await base.OnInitializedAsync();
+        items = await Repo.GetAllAsync();
     }
+ }
